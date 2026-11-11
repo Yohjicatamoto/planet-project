@@ -1,4 +1,4 @@
-/* Mars theme: rusty red dust, terminal-style type */
+/* Mars theme rusty red dust */
 
 body.mars {
   --desktop: #6b2511;
@@ -12,7 +12,7 @@ body.mars {
   --planet: radial-gradient(circle at 40% 40%, #f08a5d, #9b2d0f);
   --display-font: "Lucida Console", Monaco, monospace;
 
-  /* faint diagonal dust streaks */
+  /* dust streaks */
   background-image: repeating-linear-gradient(135deg, #712814 0 2px, transparent 2px 12px);
 }
 

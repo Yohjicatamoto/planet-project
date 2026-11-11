@@ -1,4 +1,4 @@
-// Mars page: "What would you weigh on Mars?"
+// Mars page, "What would you weigh on Mars?"
 // Mars gravity is about 38% of Earth's, so weight on Mars = weight x 0.38
 
 const MARS_GRAVITY = 0.38;
@@ -12,7 +12,7 @@ function calculateWeight() {
   const earthWeight = Number(weightInput.value);
   const unit = unitSelect.value;
 
-  // check the input before doing any math
+  // check the input before doing math
   if (weightInput.value === "" || earthWeight <= 0) {
     output.textContent = "> please enter a weight above 0_";
     return;

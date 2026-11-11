@@ -1,4 +1,4 @@
-/* Saturn theme: pale gold and dusk, thin rounded type */
+/* Saturn */
 
 body.saturn {
   --desktop: #2d2618;
@@ -12,7 +12,7 @@ body.saturn {
   --planet: radial-gradient(circle at 40% 40%, #fbf0c8, #c9b071);
   --display-font: "Century Gothic", "Avant Garde", "Trebuchet MS", sans-serif;
 
-  /* rings drawn on the desktop */
+  /* rings on the desktop */
   background-image:
     radial-gradient(ellipse at 50% 50%, transparent 38%, #3a3220 38.5%, transparent 41%,
       #352d1d 44%, transparent 47%);
@@ -24,7 +24,7 @@ body.saturn h1 {
   text-transform: lowercase;
 }
 
-/* ---------- tabs (like a properties dialog) ---------- */
+/*  tabs  */
 
 .tab-list {
   display: flex;

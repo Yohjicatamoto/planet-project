@@ -1,4 +1,4 @@
-/* Uranus theme: icy cyan and teal, plain clean type */
+/* Uranus theme*/
 
 body.uranus {
   --desktop: linear-gradient(180deg, #0d3f47, #1f6f78 55%, #5fb8c0) #5fb8c0;
@@ -14,7 +14,7 @@ body.uranus {
   background-attachment: fixed;
 }
 
-/* ---------- quiz ---------- */
+/*  quiz  */
 
 .question {
   margin-bottom: 12px;

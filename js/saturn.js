@@ -1,5 +1,5 @@
-// Saturn page: tabs, like an old properties dialog.
-// Clicking a tab shows its panel and hides the others.
+// Saturn page
+// Clicking a tab shows its panel and hides the others
 
 const tabs = document.querySelectorAll('[role="tab"]');
 const panels = document.querySelectorAll('[role="tabpanel"]');

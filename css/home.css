@@ -1,4 +1,4 @@
-/* Home page theme: a night-sky desktop with a navy window */
+/* Home page theme */
 
 body.home {
   --desktop: #05060f;
@@ -8,7 +8,7 @@ body.home {
   --planet: radial-gradient(circle at 35% 35%, #fff6b0, #f0a020);
   --display-font: "Lucida Console", "Courier New", monospace;
 
-  /* a few hundred "stars" made from small dots */
+  /* stars from dots*/
   background-image:
     radial-gradient(1px 1px at 20px 30px, #fff, transparent),
     radial-gradient(1px 1px at 90px 120px, #cfd8ff, transparent),
@@ -19,7 +19,7 @@ body.home {
   background-size: 320px 220px;
 }
 
-/* ---------- orbit model ---------- */
+/*  orbit model */
 
 .orbit-box {
   position: relative;
@@ -41,7 +41,7 @@ body.home {
   background: #ffcc33;
 }
 
-/* each orbit is a ring that spins; the planet sits on its edge */
+/* each orbit is a ring that spins */
 .orbit {
   position: absolute;
   top: 50%;

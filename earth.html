@@ -11,13 +11,13 @@
 
   <div class="window">
 
-    <!-- title bar -->
+    <!--title bar--> 
     <div class="title-bar">
       <span class="title-text"><span class="title-icon"></span>Earth - Solar System Explorer</span>
       <span class="title-buttons" aria-hidden="true"><span>_</span><span>&#9633;</span><span>&#215;</span></span>
     </div>
 
-    <!-- navigation: links to all 10 pages -->
+    <!-- navigation: links for 10 pages -->
     <nav class="menu-bar" aria-label="Main">
       <a href="index.html">Home</a>
       <a href="sun.html">Sun</a>
@@ -33,24 +33,24 @@
 
     <main class="window-body">
       <h1>Earth</h1>
-      <p class="subtitle">The third planet from the Sun, and our home.</p>
+      <p class="subtitle">The third planet from the Sun.</p>
 
       <p>Earth is the only place we know of where life exists. It sits at just the right distance from the Sun for liquid water to stay on its surface, and its atmosphere keeps the temperature steady and blocks harmful radiation.</p>
       <p>Seen from space, it is a blue planet with white swirls of cloud, brown and green continents, and white ice at the poles.</p>
 
-      <!-- pictures -->
+      <!-- photos -->
       <div class="figures">
         <figure>
           <div class="frame sunken">
-            <img src="images/earth-apollo17.jpg" alt="The whole Earth seen from space, showing Africa, blue oceans, white clouds and the Antarctic ice cap">
+            <img src="images/earth-apollo17.jpg" alt="Earth seen from space">
           </div>
-          <figcaption>"The Blue Marble", taken by the Apollo 17 crew in 1972. (NASA)</figcaption>
+          <figcaption>"The Blue Marble"</figcaption>
         </figure>
         <figure>
           <div class="frame sunken">
-            <img src="images/earth-earthrise.jpg" alt="Earth rising over the grey horizon of the Moon, half lit against black space">
+            <img src="images/earth-earthrise.jpg" alt="Earth rising">
           </div>
-          <figcaption>"Earthrise", taken from lunar orbit by Apollo 8 in 1968. (NASA)</figcaption>
+          <figcaption>"Earthrise"</figcaption>
         </figure>
       </div>
 
@@ -107,14 +107,14 @@
         </div>
       </fieldset>
 
-      <!-- interactive part (see js/earth.js) -->
+      <!-- interactive section (see js/earth.js) -->
       <fieldset class="group">
         <legend>Fun facts</legend>
         <p>Open the message box to read some surprising facts about Earth.</p>
         <button type="button" id="open-facts">Show fun facts...</button>
       </fieldset>
 
-      <!-- pop-up message box (hidden until the button is pressed) -->
+      <!-- pop-up message box -->
       <div class="overlay" id="facts-overlay" hidden>
         <div class="window dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title">
           <div class="title-bar">

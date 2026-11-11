@@ -1,4 +1,4 @@
-/* Moon theme: dusty greys, quiet serif type */
+/* Moon theme*/
 
 body.moon {
   --desktop: #2e2e2e;
@@ -11,7 +11,7 @@ body.moon {
   --planet: radial-gradient(circle at 40% 40%, #f2f2f2, #9a9a9a);
   --display-font: Georgia, "Times New Roman", serif;
 
-  /* soft crater-like spots on the desktop */
+  /* soft spots on the desktop */
   background-image:
     radial-gradient(circle at 20% 30%, #3a3a3a 0 40px, transparent 41px),
     radial-gradient(circle at 80% 70%, #353535 0 70px, transparent 71px),
@@ -23,7 +23,7 @@ body.moon h1 {
   font-style: italic;
 }
 
-/* ---------- phase viewer ---------- */
+/*  phase viewer  */
 
 .phase-view {
   display: flex;
@@ -37,7 +37,7 @@ body.moon h1 {
   background: #000;
 }
 
-/* the lit disc; the dark circle slides across it */
+/* the lit disc */
 .moon-disc {
   position: relative;
   width: 120px;

@@ -1,7 +1,7 @@
-// Uranus page: true or false quiz.
+// Uranus page true or false quiz.
 // Each question stores its answer in data-answer. When a button is
 // clicked we check it, show Correct / Wrong, lock that question,
-// and update the score.
+// and update the score
 
 const questions = document.querySelectorAll(".question");
 const scoreText = document.getElementById("score");
@@ -41,7 +41,7 @@ questions.forEach(function (question) {
   });
 });
 
-// put everything back to the start
+// put everything back
 resetBtn.addEventListener("click", function () {
   questions.forEach(function (question) {
     question.querySelectorAll("button").forEach(function (b) {

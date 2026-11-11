@@ -1,4 +1,4 @@
-/* Venus theme: thick yellow clouds, warm serif type */
+/* Venus theme */
 
 body.venus {
   --desktop: linear-gradient(170deg, #b08a2e, #7a5a14 60%, #4a3508) #4a3508;
@@ -14,7 +14,7 @@ body.venus {
   background-attachment: fixed;
 }
 
-/* ---------- temperature bars ---------- */
+/*  temp bars */
 
 .temp-row {
   display: grid;
@@ -24,7 +24,7 @@ body.venus {
   margin-top: 8px;
 }
 
-/* chunky block progress bar */
+/* progress bar */
 .bar {
   height: 20px;
   padding: 3px;

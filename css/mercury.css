@@ -1,4 +1,4 @@
-/* Mercury theme: scorched grey-brown rock, typewriter type */
+/* Mercury theme */
 
 body.mercury {
   --desktop: #4a4440;
@@ -12,7 +12,7 @@ body.mercury {
   --planet: radial-gradient(circle at 40% 40%, #d6d0ca, #7a706a);
   --display-font: "Courier New", Courier, monospace;
 
-  /* fine speckle, like a dusty surface */
+  /* fine speckle a dusty surface */
   background-image: radial-gradient(#56504b 1px, transparent 1px);
   background-size: 6px 6px;
 }
@@ -23,7 +23,7 @@ body.mercury h1 {
   text-transform: uppercase;
 }
 
-/* ---------- read more sections ---------- */
+/*  read more section */
 
 .more-item + .more-item {
   margin-top: 8px;
@@ -37,7 +37,7 @@ body.mercury h1 {
   text-align: left;
 }
 
-/* the small [+] / [-] box */
+/* the small +/- box */
 .more-item .sign {
   width: 11px;
   height: 11px;

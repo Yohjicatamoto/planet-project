@@ -1,6 +1,6 @@
 // Sun page: how long does sunlight take to reach each planet?
-// Each <option> stores the planet's average distance in AU.
-// Light covers 1 AU (about 150 million km) in about 499 seconds.
+// Each <option> stores the planet's average distance in AU
+// Light covers 1 AU (about 150 million km) in about 499 seconds
 
 const SECONDS_PER_AU = 499;
 
@@ -8,7 +8,7 @@ const planetSelect = document.getElementById("planet-select");
 const calcBtn = document.getElementById("calc-btn");
 const output = document.getElementById("light-output");
 
-// turn a number of seconds into "x hours y minutes" or "x minutes y seconds"
+// turn a number of seconds into "x hours y minutes" 
 function formatTime(totalSeconds) {
   const hours = Math.floor(totalSeconds / 3600);
   const minutes = Math.floor((totalSeconds % 3600) / 60);

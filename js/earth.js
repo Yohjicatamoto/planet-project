@@ -1,14 +1,14 @@
-// Earth page: a pop-up message box with fun facts.
-// "Show fun facts..." opens it, "Next fact" cycles through the list,
-// and "OK", the x button or the Escape key closes it.
+// Earth,a pop-up message box with fun facts.
+// "Show fun facts..." opens fun facts, "Next fact" cycles through 
+// "OK", the x button or Escape key closes it
 
 const funFacts = [
   "Earth is the densest planet in the solar system.",
-  "Earth is not a perfect sphere. It bulges a little at the equator because it spins.",
-  "Earth travels around the Sun at about 30 km every second.",
-  "The highest point on Earth is Mount Everest at 8,849 m. The deepest is the Challenger Deep in the Pacific, nearly 11,000 m down.",
-  "Earth's magnetic field shields us from the solar wind. It also causes the northern and southern lights.",
-  "Earth's spin is very slowly getting slower, so days are getting longer by a tiny amount over time.",
+  "Earth is not a perfect sphere. It bulges at the equator because it spins.",
+  "Earth travels around the Sun at about 30 km per second",
+  "The highest point on Earth is Mount Everest at 8,849 (My home country!!)",
+  "Earth's magnetic field protects us from the solar wind, also causes the northern and southern lights.",
+  "Earth's spin is very slowly getting slower",
   "Earth is the only planet not named after a Greek or Roman god."
 ];
 
@@ -39,7 +39,7 @@ function closeDialog() {
 }
 
 function nextFact() {
-  // go to the next fact, and back to the first one after the last
+  // go to the next fact, back to the first one after the last
   current = (current + 1) % funFacts.length;
   showFact();
 }
@@ -54,14 +54,14 @@ closeX.addEventListener("keydown", function (event) {
   }
 });
 
-// close with the keyboard too
+// close with the keyboard
 document.addEventListener("keydown", function (event) {
   if (event.key === "Escape" && !overlay.hidden) {
     closeDialog();
   }
 });
 
-// clicking the dark area outside the box also closes it
+// clicking the dark area outside also closes it
 overlay.addEventListener("click", function (event) {
   if (event.target === overlay) {
     closeDialog();

@@ -1,4 +1,4 @@
-// Home page: Start / Stop buttons for the orbit model.
+// Home page: Start / Stop buttons
 // The orbits are CSS animations. Adding the "paused" class
 // to the box freezes them, removing it lets them move again.
 

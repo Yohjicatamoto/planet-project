@@ -1,9 +1,9 @@
 // Moon page: phase viewer.
-// The slider goes from day 0 to day 29.5 of the lunar cycle.
+//  slider goes from day 0 to day 29.5 of the lunar cycle
 // A dark circle slides across the bright Moon to make the phase:
-//   day 0      -> dark circle covers the Moon (new Moon)
-//   day 14.75  -> dark circle fully moved off (full Moon)
-//   day 29.5   -> dark circle back over the Moon from the other side
+//   day 0      > dark circle covers the Moon (new Moon)
+//   day 14.75  > dark circle fully moved off (full Moon)
+//   day 29.5   > dark circle back over the Moon from the other side
 
 const CYCLE = 29.5;
 

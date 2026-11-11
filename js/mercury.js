@@ -1,4 +1,4 @@
-// Mercury page: "Read more" sections.
+// Mercury page has "Read more" sections.
 // Each button shows or hides the text box right after it,
 // and swaps its little sign between + and -.
 

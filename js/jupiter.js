@@ -1,5 +1,5 @@
-// Jupiter page: age converter.
-// One Jupiter year is about 11.86 Earth years.
+// Jupiter page: age converter
+// One Jupiter year is 11.86 Earth years
 
 const JUPITER_YEAR = 11.86;
 

@@ -1,7 +1,7 @@
 // Venus page: temperature comparison with a unit switch.
-// Every bar and label stores its temperature in Celsius (data-c).
+// Every bar and label stores its temperature in Celsius (data-c)
 // The radio buttons pick which unit to show, and the bars are
-// sized compared to the hottest value (the surface of Venus).
+// sized compared to the hottest value (the surface of Venus)
 
 const unitRadios = document.querySelectorAll('input[name="unit"]');
 const bars = document.querySelectorAll(".bar-fill");

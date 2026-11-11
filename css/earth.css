@@ -1,4 +1,4 @@
-/* Earth theme: ocean teal desktop, blue-to-green title bar */
+/* Earth theme. blue and green*/
 
 body.earth {
   --desktop: #008080;
@@ -10,7 +10,7 @@ body.earth {
   --display-font: Verdana, Geneva, sans-serif;
 }
 
-/* ---------- fun fact pop-up ---------- */
+/*  fun fact pop-up  */
 
 .overlay {
   position: fixed;
